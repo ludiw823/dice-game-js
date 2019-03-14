@@ -119,6 +119,30 @@ button {
     transition: background-color 0.3s, color 0.3s;
 }
 
+input {
+    position: absolute;
+    width: 177px;
+    padding:3px 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    background-color: #FFFFFF;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    top:495px;
+}
+
+input[type = 'number']::-webkit-outer-spin-button,input[type = 'number']::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+input[type = 'number']{
+    -moz-appearance:textfield;
+}
+
 button:hover { font-weight: 600; }
 button:hover i { margin-right: 20px; }
 
@@ -138,15 +162,15 @@ i {
 }
 
 .btn-new { top: 45px;}
-.btn-roll { top: 403px;}
-.btn-hold { top: 467px;}
+.btn-roll { top: 400px;}
+.btn-hold { top: 450px;}
 
 #dice1 {
     top:126px;
 }
 
 #dice2 {
-    top:272px;
+    top:250px;
 }
 
 .dice {

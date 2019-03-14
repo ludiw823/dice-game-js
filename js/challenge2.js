@@ -58,7 +58,7 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
 	if(inputScore){
 		winScore = inputScore;
 	}else{
-		winScore = document.querySelector("#winNum").placeholder;
+		winScore = 30;
 	}
 
   if(gamePlaying){
