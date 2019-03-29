@@ -53,7 +53,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
 document.querySelector('.btn-hold').addEventListener('click', function(){
 	
 	var inputScore = document.getElementById("winNum").value;
-	console.log("winning score: "+winScore);
+	//console.log("winning score: "+winScore);
 
 	if(inputScore){
 		winScore = inputScore;
